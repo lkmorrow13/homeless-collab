@@ -1,5 +1,5 @@
 html, body {
-	height: 500%;
+	height: 100%;
 }
 .header {
 	width: 100%;
@@ -33,4 +33,47 @@ html, body {
 	top: 50%;
 	left: 50%;
 	padding-top: 27px;
+}
+.time-buttons {
+	width: 250px;
+	height: 143px;
+	background-color: blue;
+	color: white;
+	font-size: 57px;
+	border-radius: 7px;
+	margin: 10px;
+	display: inline-block;
+	left: 15%;
+	position: relative;
+	margin-top: 45px;
+	margin-left: 28px;
+	text-align: center;
+}
+.money-button {
+	width: 100px;
+	height: 75px;
+	background-color: blue;
+	color: white;
+	font-size: 59px;
+	border-radius: 7px;
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	left: 28%;
+}
+.donate-button {
+	width: 500px;
+	height: 100px;
+	background-color: blue;
+	color: white;
+	font-size: 85px;
+	display: inline-block;
+	position: relative;
+	left: 21%;
+	border-radius: 7px;
+	text-align: center;
+	margin-top: 15px;
+}
+.hover:hover {
+	background-color: yellow;
 }
