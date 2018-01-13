@@ -1,3 +1,4 @@
+
 #wrapper{
 	background: yellow;
 	width: 800px;
@@ -28,4 +29,92 @@ body {
 
 .center {
 	text-align: center;
+}
+
+html, body {
+	height: 100%;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: blue;
+	border-radius: 7px;
+	text-align: center;
+	position: sticky;
+	top: 4px;
+}
+
+.link {
+	font-size: 75px;
+	color: white;
+	display: inline-block;
+	margin: 0 15px;
+	text-align: center;
+}
+
+.fixed-button {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	text-align: center;
+	font-size: 31px;
+	color: white;
+	border-radius: 50%;
+	bottom: 25px;
+	right: 25px;
+	position: fixed;
+}
+
+.center-text {
+	top: 50%;
+	left: 50%;
+	padding-top: 27px;
+}
+
+.time-buttons {
+	width: 250px;
+	height: 143px;
+	background-color: blue;
+	color: white;
+	font-size: 57px;
+	border-radius: 7px;
+	margin: 10px;
+	display: inline-block;
+	left: 15%;
+	position: relative;
+	margin-top: 45px;
+	margin-left: 28px;
+	text-align: center;
+}
+
+.money-button {
+	width: 100px;
+	height: 75px;
+	background-color: blue;
+	color: white;
+	font-size: 59px;
+	border-radius: 7px;
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	left: 28%;
+}
+
+.donate-button {
+	width: 500px;
+	height: 100px;
+	background-color: blue;
+	color: white;
+	font-size: 85px;
+	display: inline-block;
+	position: relative;
+	left: 21%;
+	border-radius: 7px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.hover:hover {
+	background-color: yellow;
 }
