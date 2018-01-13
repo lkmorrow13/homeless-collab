@@ -1,0 +1,27 @@
+#wrapper{
+	background: yellow;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 30px;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 30px;
+}
+
+body {
+	background: url(images/homeless-girl-flag-colors.png);
+}
+
+.autosize {
+	max-width: 350px;
+	max-height: 350px;
+}
