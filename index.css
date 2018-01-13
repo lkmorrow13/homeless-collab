@@ -1,6 +1,40 @@
+
+#wrapper{
+	background: yellow;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 30px;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 30px;
+}
+
+body {
+	background: url(images/flag.jpg);
+}
+
+.autosize {
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.center {
+	text-align: center;
+}
+
 html, body {
 	height: 100%;
 }
+
 .header {
 	width: 100%;
 	height: 100px;
@@ -10,6 +44,7 @@ html, body {
 	position: sticky;
 	top: 4px;
 }
+
 .link {
 	font-size: 75px;
 	color: white;
@@ -17,6 +52,7 @@ html, body {
 	margin: 0 15px;
 	text-align: center;
 }
+
 .fixed-button {
 	width: 100px;
 	height: 100px;
@@ -29,11 +65,13 @@ html, body {
 	right: 25px;
 	position: fixed;
 }
+
 .center-text {
 	top: 50%;
 	left: 50%;
 	padding-top: 27px;
 }
+
 .time-buttons {
 	width: 250px;
 	height: 143px;
@@ -49,6 +87,7 @@ html, body {
 	margin-left: 28px;
 	text-align: center;
 }
+
 .money-button {
 	width: 100px;
 	height: 75px;
@@ -61,6 +100,7 @@ html, body {
 	margin: 10px;
 	left: 28%;
 }
+
 .donate-button {
 	width: 500px;
 	height: 100px;
@@ -74,6 +114,7 @@ html, body {
 	text-align: center;
 	margin-top: 15px;
 }
+
 .hover:hover {
 	background-color: yellow;
 }
